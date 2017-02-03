@@ -14,7 +14,8 @@ clone-repo()
 {
     echo "Cloning github repo..."
     git clone https://github.com/vmelnychuk/vax.git --origin upstream --recursive
-    echo "Note: you can do cleaning up by: $ rm bootstrap.sh"
+    echo "Cleaning up: romove bootstrap.sh"
+    rm bootstrap.sh
     echo "Run the following commands to build vax:"
     echo "cd vax"
     echo "make all"
