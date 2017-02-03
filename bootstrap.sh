@@ -17,7 +17,7 @@ clone-repo()
     echo "Cleaning up: remove bootstrap.sh"
     rm bootstrap.sh
     echo "Run the following commands to build vax:"
-    echo "cd vax"
+    echo "cd vax/src"
     echo "make all"
     exit
 }
